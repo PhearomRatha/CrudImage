@@ -15,6 +15,7 @@ class ProductController extends Controller
         return view('pages.viewProduct', compact('pro'));
     }
 
+    // fuck u bro don't forget my 10$ for fixed this error
     public function add(Request $request)
     {
         try {
