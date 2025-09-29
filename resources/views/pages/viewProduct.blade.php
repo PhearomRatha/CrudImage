@@ -20,7 +20,7 @@
                         <td>{{ $value->id }}</td>
                         <td>{{ $value->name }}</td>
                         <td>
-    <img src="{{ asset('upload/'.$value->image) }}" alt="{{ $value->name }}" width="80">
+    <img src="{{ $value->image}}" alt="{{ $value->name }}" width="80">
 </td>
 
                         <td>{{ $value->price }}</td>
